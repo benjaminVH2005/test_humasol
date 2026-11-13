@@ -1,0 +1,129 @@
+site_name: Humasol Kennisbank
+site_description: Alle kennis over onze projecten, technologieën en partners op één plek
+# Pas dit aan naar jullie eigen GitHub-repository:
+repo_url: https://github.com/benjaminVH2005/kennisbank
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: nl
+  font: false                # gebruik systeemlettertypes (sneller, geen externe fonts)
+  palette:
+    primary: green
+    accent: amber
+  features:
+    - navigation.sections    # hoofdstukken als koppen in het menu
+    - navigation.indexes     # index.md wordt de overzichtspagina van een map
+    - navigation.top         # knop "terug naar boven"
+    - search.suggest
+    - search.highlight
+    - content.action.edit    # potloodje "bewerk deze pagina"
+
+plugins:
+  - search:
+      lang: nl
+
+markdown_extensions:
+  - admonition               # gekleurde kaders: !!! tip, !!! warning ...
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      permalink: true
+
+# Volgorde van het menu. Laat je dit weg, dan bouwt MkDocs het menu
+# automatisch op uit de mappen (alfabetisch).
+nav:
+  - Start hier: index.md
+  - "Deel 1: Community": community.md
+  - Per land:
+      - landen/index.md
+      - Liberia:
+          - A. Algemene info: landen/liberia/index.md
+          - B. Projecten: landen/liberia/projecten.md
+          - C. Partners & bedrijven: landen/liberia/partners.md
+      - Kenia:
+          - A. Algemene info: landen/kenia/index.md
+          - B. Projecten: landen/kenia/projecten.md
+          - C. Partners & bedrijven: landen/kenia/partners.md
+      - Bolivia:
+          - A. Algemene info: landen/bolivia/index.md
+          - B. Projecten: landen/bolivia/projecten.md
+          - C. Partners & bedrijven: landen/bolivia/partners.md
+      - Oeganda:
+          - A. Algemene info: landen/oeganda/index.md
+          - B. Projecten: landen/oeganda/projecten.md
+          - C. Partners & bedrijven: landen/oeganda/partners.md
+  - Per technologie:
+      - technologieen/index.md
+      - PV:
+          - technologieen/pv/index.md
+          - A. Achtergrond & research: technologieen/pv/achtergrond.md
+          - B. Technologie:
+              - technologieen/pv/technologie/index.md
+              - Main componenten:
+                  - Panelen: technologieen/pv/technologie/componenten/panelen.md
+                  - Omvormer: technologieen/pv/technologie/componenten/omvormer.md
+                  - Batterijen: technologieen/pv/technologie/componenten/batterijen.md
+                  - Laadregelaar: technologieen/pv/technologie/componenten/laadregelaar.md
+              - Type systeem: technologieen/pv/technologie/systeemtypes.md
+              - Dimensioneren: technologieen/pv/technologie/dimensioneren.md
+          - C. Onderhoud & duurzaamheid: technologieen/pv/onderhoud.md
+          - D. Economisch: technologieen/pv/economisch.md
+          - E. Praktische installatie: technologieen/pv/installatie.md
+          - F. Planning: technologieen/pv/planning.md
+      - Waterdistributie:
+          - technologieen/waterdistributie/index.md
+          - A. Achtergrond & research: technologieen/waterdistributie/achtergrond.md
+          - B. Technologie:
+              - technologieen/waterdistributie/technologie/index.md
+              - Main componenten:
+                  - Pomp: technologieen/waterdistributie/technologie/componenten/pomp.md
+                  - Opslagtank: technologieen/waterdistributie/technologie/componenten/opslagtank.md
+                  - Leidingnet: technologieen/waterdistributie/technologie/componenten/leidingnet.md
+                  - Tappunten: technologieen/waterdistributie/technologie/componenten/tappunten.md
+              - Type systeem: technologieen/waterdistributie/technologie/systeemtypes.md
+              - Dimensioneren: technologieen/waterdistributie/technologie/dimensioneren.md
+          - C. Onderhoud & duurzaamheid: technologieen/waterdistributie/onderhoud.md
+          - D. Economisch: technologieen/waterdistributie/economisch.md
+          - E. Praktische installatie: technologieen/waterdistributie/installatie.md
+          - F. Planning: technologieen/waterdistributie/planning.md
+      - Biogas:
+          - technologieen/biogas/index.md
+          - A. Achtergrond & research: technologieen/biogas/achtergrond.md
+          - B. Technologie:
+              - technologieen/biogas/technologie/index.md
+              - Main componenten:
+                  - Vergister: technologieen/biogas/technologie/componenten/vergister.md
+                  - Gasopslag: technologieen/biogas/technologie/componenten/gasopslag.md
+                  - Gasleidingen & branders: technologieen/biogas/technologie/componenten/gasleidingen-branders.md
+                  - Digestaat (restproduct): technologieen/biogas/technologie/componenten/digestaat.md
+              - Type systeem: technologieen/biogas/technologie/systeemtypes.md
+              - Dimensioneren: technologieen/biogas/technologie/dimensioneren.md
+          - C. Onderhoud & duurzaamheid: technologieen/biogas/onderhoud.md
+          - D. Economisch: technologieen/biogas/economisch.md
+          - E. Praktische installatie: technologieen/biogas/installatie.md
+          - F. Planning: technologieen/biogas/planning.md
+      - Waterfiltratie:
+          - technologieen/waterfiltratie/index.md
+          - A. Achtergrond & research: technologieen/waterfiltratie/achtergrond.md
+          - B. Technologie:
+              - technologieen/waterfiltratie/technologie/index.md
+              - Main componenten:
+                  - Voorfiltratie: technologieen/waterfiltratie/technologie/componenten/voorfiltratie.md
+                  - Hoofdfilter: technologieen/waterfiltratie/technologie/componenten/filter.md
+                  - Desinfectie: technologieen/waterfiltratie/technologie/componenten/desinfectie.md
+                  - Opslag schoon water: technologieen/waterfiltratie/technologie/componenten/opslag-schoon-water.md
+              - Type systeem: technologieen/waterfiltratie/technologie/systeemtypes.md
+              - Dimensioneren: technologieen/waterfiltratie/technologie/dimensioneren.md
+          - C. Onderhoud & duurzaamheid: technologieen/waterfiltratie/onderhoud.md
+          - D. Economisch: technologieen/waterfiltratie/economisch.md
+          - E. Praktische installatie: technologieen/waterfiltratie/installatie.md
+          - F. Planning: technologieen/waterfiltratie/planning.md
+  - Sjablonen:
+      - sjablonen/index.md
+      - Componentpagina: sjablonen/component.md
+      - Project: sjablonen/project.md
+  - Hoe bijdragen: bijdragen.md
