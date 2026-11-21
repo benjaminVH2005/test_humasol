@@ -7,11 +7,12 @@ Solar PV is the technology Humasol uses most: for schools, health centres, farms
 
 ## What Humasol typically builds
 
-- **Off-grid or hybrid** PV systems with **battery storage**, often replacing or backing up a diesel generator or an unreliable grid
-- **Victron** components in most recent projects: a MultiPlus-II inverter/charger, SmartSolar MPPT charge controllers and a Cerbo GX for monitoring
-- **Lithium (LiFePO4) batteries at 48 V** in most recent projects
-- **Monocrystalline panels of about 400–620 Wp** in recent projects
-- Components **bought locally** as much as possible, and **local technicians** involved in the installation and maintenance
+Most Humasol PV projects install an **off-grid or hybrid system with batteries** at a school, health centre, farm or community centre. In recent years almost all teams used **Victron** components (a MultiPlus-II inverter/charger, SmartSolar MPPT charge controllers and a Cerbo GX for remote monitoring), **48 V lithium (LiFePO4) batteries** and **monocrystalline panels of about 400–620 Wp**, bought from local suppliers where possible.
+
+!!! tip "Start here if you need to size a system"
+    1. Read [A. Background](background.md) to understand the basic terms (W, Wh, Wp, peak sun hours, series/parallel).
+    2. Read [B. Technology](technology/index.md) to see what each component does.
+    3. Follow [4. Sizing](technology/sizing.md) step by step. It uses the Emergi project as a fully worked example.
 
 | Part | When do you need it? |
 |---|---|

@@ -1,25 +1,25 @@
 # B. Technology: PV (solar power)
 
-## 1. Info
+## 1. How the parts work together
 
-A typical Humasol PV system has these parts:
+![Overview of a Humasol PV system](../../../assets/img/pv/pv-system.svg)
 
-| Part | What does it do? | What Humasol usually used |
-|---|---|---|
-| [Solar panels](components/panels.md) | Convert sunlight into DC | Monocrystalline, about 400–620 Wp each |
-| [Charge controller](components/charge-controller.md) | Charges the batteries from the panels | Victron SmartSolar MPPT (e.g. 250/85, 250/100) |
-| [Batteries](components/batteries.md) | Store energy for night and cloudy days | Lithium (LiFePO4), 48 V |
-| [Inverter](components/inverter.md) | Converts DC into 230 V AC | Victron MultiPlus-II inverter/charger |
-| Monitoring | Logs production and battery state, remotely | Victron Cerbo GX + VRM portal |
-| Protection | Keeps the system and people safe | Fuses, breakers (MCB), RCDs, surge protection (SPD), earthing |
+During the day, the panels produce DC power. The **MPPT charge controller** sends it to the **DC busbar**, a copper bar where all DC cables meet. From there the energy goes straight to the **inverter** to supply the loads, and whatever is left charges the **batteries**. In the evening and at night the panels stop producing and the batteries supply the inverter. In a **hybrid system**, the inverter switches to the grid or a generator when the battery gets too low, and it can also charge the battery from it.
 
-**On the Drive:** [Sizing tool](https://drive.google.com/) · [Central supplier list](https://drive.google.com/) (filter on *PV*) *(add links)*
+Between all parts there are **fuses, switches and surge protection** to keep the system and the people safe. The **Cerbo GX** reads the data of all Victron devices and sends it to the online VRM portal.
 
 ## 2. Main components
 
-Each component has its own page with: info, relevant parameters, types + comparison, how to size it, and what Humasol used.
+| Component | Read this page for |
+|---|---|
+| [Solar panels](components/panels.md) | The parameters on a datasheet and how to choose a panel |
+| [Charge controller (MPPT)](components/charge-controller.md) | How to check that a string of panels fits the controller |
+| [Batteries](components/batteries.md) | Lithium versus lead-acid, depth of discharge, how much storage you need |
+| [Inverter](components/inverter.md) | How to choose the inverter power, and inverter/chargers for hybrid systems |
 
 ## 3. and 4.
 
-- [3. System types](system-types.md): off-grid or hybrid
-- [4. Sizing the whole system](sizing.md): step by step, with examples from projects
+- [3. System types](system-types.md): off-grid or hybrid, and when to choose which
+- [4. Sizing](sizing.md): the complete step-by-step method, worked out for Emergi
+
+**On the Drive:** [Sizing tool](https://drive.google.com/) · [Central supplier list](https://drive.google.com/) (filter on *PV*) *(add links)*

@@ -1,36 +1,24 @@
 # Inverter
 
-## Info
-Converts the DC from the batteries into 230 V AC. Most Humasol projects used an **inverter/charger** (Victron MultiPlus-II), which can also charge the batteries from the grid or a generator.
+## What does it do?
 
-## Relevant parameters
+The inverter turns the 48 V DC from the battery into 230 V AC for normal appliances. Humasol projects mostly use an **inverter/charger** (Victron **MultiPlus-II**): besides inverting, it can also take AC from the grid or a generator, supply the loads with it and charge the battery. That makes it possible to turn an off-grid system into a hybrid one later without replacing the inverter ([Chaulmoogra](https://drive.google.com/file/d/1CjcOCPlSrWIydsPOc8KnPEB9xlv46_OT/view)).
 
-| Parameter | Meaning |
-|---|---|
-| Continuous power | What the inverter can always deliver |
-| Peak (surge) power | For start-up currents of motors and pumps |
-| Battery voltage | Must match the battery bank (Humasol mostly used 48 V) |
-| AC input | Whether the grid or a generator can be connected (hybrid) |
+## How large must it be?
 
-## Types + comparison
+The inverter is sized on **power**, not on energy: it must be able to deliver the **highest power that is used at the same moment**.
 
-| Type | Advantages | Disadvantages |
-|---|---|---|
-| Pure sine wave | Works with all appliances | More expensive |
-| Modified sine wave | Cheap | Problems with motors and sensitive electronics |
-| Inverter/charger (e.g. MultiPlus-II) | Also charges from grid/generator, fits hybrid systems | More expensive than a simple inverter |
+1. List all appliances with their power and when they are used, and find the hour with the highest total. Do not simply add up everything: the Chaulmoogra team made a load profile per 15 minutes with the partner and found a realistic peak of **3000 W**, much lower than all appliances together.
+2. Look at the **continuous power** on the datasheet, not the VA rating. A MultiPlus-II 48/5000 delivers 4000 W continuously at 25 °C, but only 3700 W at 40 °C. In hot countries this matters.
+3. Check the **start-up power** of motors and pumps.
+4. If one inverter is not enough, Victron inverters can be put **in parallel** (or one per phase for three-phase).
 
-## What Humasol used
+Examples: MultiPlus-II 48/3000 in [Bagaya-Kapelle](https://drive.google.com/file/d/1cs9qv8PgYiXLEbxHEyLIqb_XVVOg6__H/view) and [Unikin](https://drive.google.com/file/d/13ijhU7CS5DQhFOQN78BsV6r1Wj9dtBYr/view); 48/5000 in [Chaulmoogra](https://drive.google.com/file/d/1CjcOCPlSrWIydsPOc8KnPEB9xlv46_OT/view); 48/10000 in [Ayonnah](https://drive.google.com/file/d/1WEOuCyAQanaq12DLHQQtdQrMjhzrDj8N/view); three 48/10000 units for the three-phase supply of [Apida](https://drive.google.com/file/d/1c8-2AVDGSzAgYXFXR_jMqJk__LChXEvR/view).
 
-| Project | Inverter |
-|---|---|
-| [Bagaya-Kapelle](https://drive.google.com/file/d/1cs9qv8PgYiXLEbxHEyLIqb_XVVOg6__H/view) (2021-22), [Unikin](https://drive.google.com/file/d/13ijhU7CS5DQhFOQN78BsV6r1Wj9dtBYr/view) (2024-25) | MultiPlus-II 48/3000 |
-| [Chaulmoogra](https://drive.google.com/file/d/1CjcOCPlSrWIydsPOc8KnPEB9xlv46_OT/view) (2025-26) | MultiPlus-II 48/5000 |
-| [Ayonnah](https://drive.google.com/file/d/1WEOuCyAQanaq12DLHQQtdQrMjhzrDj8N/view) (2025-26) | MultiPlus-II 48/10000 |
-| [Apida](https://drive.google.com/file/d/1c8-2AVDGSzAgYXFXR_jMqJk__LChXEvR/view) (2024-25) | 3 × MultiPlus-II 48/10000 (three-phase supply for a medical centre) |
-| [Emergi](https://drive.google.com/file/d/1dvwuWhsSH8iRaCqRwZrG4B46ZKS-dGI-/view) (2025-26) | Full design: 3 × MultiPlus-II 48/10000 in parallel |
+## Pure sine wave
 
-## How to size it
-1. Add up the power of all appliances that run at the same time
-2. Add a margin, and check the start-up (surge) power of motors and pumps
-3. See [4. Sizing](../sizing.md)
+Always use a **pure sine wave** inverter (all Victron models are). Cheap "modified sine" inverters cause problems with motors, pumps and sensitive electronics.
+
+## The current on the battery side
+
+The DC current between battery and inverter is large. For a 10 kW inverter at 48 V with 96 % efficiency: 10 000 ÷ (0.96 × 48) = **217 A**. That current determines the cable and fuse between busbar and inverter (see [4. Sizing](../sizing.md), step 6).

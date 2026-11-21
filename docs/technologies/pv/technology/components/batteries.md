@@ -1,29 +1,40 @@
 # Batteries
 
-## Info
-Store energy for the night and for cloudy days. The battery bank is often the most expensive part to replace over the lifetime of the system.
+## What does the battery do?
 
-## Relevant parameters
+The battery stores the solar energy that is not used immediately, so it can be used in the evening, at night or on a cloudy day. It is usually the **most expensive part to replace** during the lifetime of a system, so choose it carefully.
 
-| Parameter | Meaning |
-|---|---|
-| Capacity (Ah or kWh) | How much energy the battery holds |
-| Depth of discharge (DoD) | How much of it you can use without damaging the battery |
-| Voltage | Humasol mostly used 48 V systems: a higher voltage means lower currents |
-| Cycle life | How many charge/discharge cycles before replacement |
+## Lithium or lead-acid?
 
-## Types + comparison
-
-| Type | Advantages | Disadvantages |
+| | Lithium (LiFePO4) | Lead-acid (gel, AGM) |
 |---|---|---|
-| Lithium (LiFePO4) | High DoD (often 80–95 %), long lifetime | Higher purchase price |
-| Lead-acid (gel, AGM) | Cheaper, often available locally | Low usable DoD (about 50 %), shorter lifetime |
+| Usable part of the capacity (DoD) | 80–95 % | about 50 % |
+| Lifetime | Long | Shorter |
+| Price to buy | Higher | Lower, often available locally |
 
-**Most recent Humasol projects chose lithium.** Example of the DoD effect: in [Bagaya-Kapelle](https://drive.google.com/file/d/1cs9qv8PgYiXLEbxHEyLIqb_XVVOg6__H/view) (2021-22), 4 batteries gave 10 kWh of storage, of which only 5 kWh was usable because of the DoD.
+The **depth of discharge (DoD)** is the share of the battery you can really use without damaging it. This makes a big difference: in [Bagaya-Kapelle](https://drive.google.com/file/d/1cs9qv8PgYiXLEbxHEyLIqb_XVVOg6__H/view) four batteries gave 10 kWh of storage, but only **5 kWh** was usable because of the DoD. Most recent Humasol projects therefore chose **lithium**.
 
-## How to size it
+## Voltage
 
-Battery capacity (Ah) ≈ energy to store (Wh) ÷ (DoD × battery voltage × inverter efficiency)
+Humasol systems almost always use **48 V**. A higher voltage means a lower current for the same power, so thinner cables and smaller fuses.
 
-- Decide **what the battery must cover**: only the night, or also bad-weather days. [Kiyodel](https://drive.google.com/file/d/124zqvYch7JHpEYUP_ul1__plQ9Rwe_94/view) sized the battery for the night and bad-weather days instead of the full daily use, to avoid oversizing.
-- In a **hybrid** system the battery can be smaller, because the grid is the backup. [Gitaru Marigu](https://drive.google.com/file/d/1D3iP_NHe1bnwG8g8spbsb6MS3Cgx5PEH/view) even planned to add the batteries (2 × 48 V 100 Ah lithium) later, when funds are available.
+## How much storage do you need?
+
+First decide **what the battery has to cover**:
+
+- **Off-grid:** the battery must cover the evening and night, and ideally a bad-weather day. As a first estimate you can take the full daily consumption: capacity (Ah) = daily energy (Wh) ÷ (battery voltage × DoD). The Chaulmoogra team found about 384 Ah at 48 V (about 18.5 kWh) this way.
+- **Hybrid:** the grid is the backup, so the battery can be smaller, or even be added later ([Gitaru Marigu](https://drive.google.com/file/d/1D3iP_NHe1bnwG8g8spbsb6MS3Cgx5PEH/view)).
+- Do **not** oversize: during the day the panels supply most loads directly, so the battery mainly has to cover the night. The Chaulmoogra simulation ended up with a smaller battery (15 kWh) than the simple estimate, and [Kiyodel](https://drive.google.com/file/d/124zqvYch7JHpEYUP_ul1__plQ9Rwe_94/view) also sized only for the night and bad-weather days.
+
+## Battery current
+
+Besides the energy, also check the **current**. The battery cables and fuses must handle the larger of:
+
+- the **charge current**: all MPPTs together, plus the grid charger in a hybrid system;
+- the **discharge current**: all inverters together at full power.
+
+See [4. Sizing](../sizing.md), step 7, where this is worked out for Emergi (748 A, so two cables in parallel).
+
+## Practical tip
+
+Use battery modules that can be **extended later** with the same type. Emergi chose the same 5.1 kWh modules as the existing installation, because up to 63 of them can be connected in parallel.
