@@ -4,18 +4,20 @@
 
 | Frequency | Task | By whom |
 |---|---|---|
-| Weekly | Visually check the panels, remove dust | Local operator |
-| Monthly | Note the battery voltage, check connections | Local technician |
-| Yearly | Full check: cabling, earthing | Technician + Humasol remotely |
-| After 5–10 years | Replace the batteries (depending on type) | Partner, with a reserve fund |
+| Regularly | Remove dust and dirt from the panels, check for shade | Local operator |
+| Monthly | Check connections, fuses and the battery state (or look at the monitoring) | Local technician |
+| Yearly | Full check: cabling, earthing, protection devices | Local technician + Humasol follow-up |
+| End of battery life | Replace the batteries | Partner, ideally with money set aside for it |
 
-**Document with the full maintenance plan:** [on the Drive](https://drive.google.com/) *(add link)*
+Write a **maintenance plan** for the partner. Example: the [Zombo maintenance plan](https://drive.google.com/file/d/1RZj7A8a0Bwc67N9b3AMMwXIEWFxp1c-S/view) (solar dryer project, same idea).
 
 ## How is it monitored?
-- **What do we track?** *yield (kWh), battery voltage, faults*
-- **How?** *e.g. a logbook the partner sends monthly, or remote monitoring*
-- **Who checks it at Humasol?** *name / role*
+
+- Recent projects used a **Victron Cerbo GX** connected to the **VRM portal** through a 4G router: the follow-up team sees the PV yield and battery state without being on site ([Chaulmoogra](https://drive.google.com/file/d/1CjcOCPlSrWIydsPOc8KnPEB9xlv46_OT/view), [Ayonnah](https://drive.google.com/file/d/1WEOuCyAQanaq12DLHQQtdQrMjhzrDj8N/view)).
+- Agree who at Humasol (Follow-up) checks the data, and who the partner contacts when something is wrong.
 
 ## Long-term sustainability
-- Are spare parts available locally? (see partners per country)
-- How does the partner pay for replacements later? (e.g. a reserve fund)
+
+- **Train a local technician or electrician** and involve them in the installation ([Kiyodel](https://drive.google.com/file/d/124zqvYch7JHpEYUP_ul1__plQ9Rwe_94/view)).
+- **Buy components locally** where possible, so spare parts are available ([Kiyodel](https://drive.google.com/file/d/124zqvYch7JHpEYUP_ul1__plQ9Rwe_94/view), [Hope for Girls & Women](https://drive.google.com/file/d/1Hf7LYZVS5rYBWHYoIerWkpYfLCCgrHsf/view)).
+- Make sure the partner can pay for **battery replacement** later.

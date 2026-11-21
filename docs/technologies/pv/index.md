@@ -1,9 +1,17 @@
 # PV (solar power)
 
-Off-grid and hybrid solar installations for schools, health centres and community buildings.
+Solar PV is the technology Humasol uses most: for schools, health centres, farms and community centres with no grid or an unreliable one.
 
-!!! info "Example content"
-    This text is an example to show the structure. Replace it with your own knowledge.
+!!! info "Based on Humasol projects"
+    This section summarises what Humasol PV projects did, based on their final reports. Always check the report of a similar project before you design your own system.
+
+## What Humasol typically builds
+
+- **Off-grid or hybrid** PV systems with **battery storage**, often replacing or backing up a diesel generator or an unreliable grid
+- **Victron** components in most recent projects: a MultiPlus-II inverter/charger, SmartSolar MPPT charge controllers and a Cerbo GX for monitoring
+- **Lithium (LiFePO4) batteries at 48 V** in most recent projects
+- **Monocrystalline panels of about 400–620 Wp** in recent projects
+- Components **bought locally** as much as possible, and **local technicians** involved in the installation and maintenance
 
 | Part | When do you need it? |
 |---|---|
