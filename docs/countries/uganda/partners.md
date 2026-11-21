@@ -8,15 +8,6 @@
 
 ## (Local) companies and suppliers
 
-All suppliers and companies are in **one central supplier list** on the Drive, so they don't have to be kept up to date in two places.
+All suppliers and companies are in **one central supplier list** on the Drive. **[Open the central supplier list](https://drive.google.com/)** and filter on *Uganda*. *(add link)*
 
-**[Open the central supplier list](https://drive.google.com/)** and filter on *Uganda*. *(add link)*
-
-| Column in the sheet | Example |
-|---|---|
-| Country | Uganda |
-| Technology | PV, water distribution, biogas, water filtration |
-| Company + city | *name, city* |
-| What do they supply / do? | *e.g. batteries, installation* |
-| Experience | *e.g. reliable, 2-week delivery time* |
-| Contact | *(only in the protected sheet)* |
+Contact details are only in the protected sheet.

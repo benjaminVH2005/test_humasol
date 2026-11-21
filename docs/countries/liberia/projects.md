@@ -8,4 +8,4 @@ Projects Humasol has carried out here, based on the final reports on the student
 
 ## Lessons learned
 
-*To be completed: what worked well, what we would do differently, and tips for the next team. Ask the teams of the projects above.*
+*To be completed: what worked well, what we would do differently, and tips for the next team.*

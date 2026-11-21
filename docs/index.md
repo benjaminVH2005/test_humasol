@@ -7,12 +7,9 @@ Welcome! This is where we collect everything we have learned from our projects, 
 
 ## Library
 
-| Per country | Per technology |
-|---|---|
-| [Liberia](countries/liberia/index.md) | [PV](technologies/pv/index.md) |
-| [Kenya](countries/kenya/index.md) | [Water distribution](technologies/water-distribution/index.md) |
-| [Bolivia](countries/bolivia/index.md) | [Biogas](technologies/biogas/index.md) |
-| [Uganda](countries/uganda/index.md) | [Water filtration](technologies/water-filtration/index.md) |
+**Per country:** [Benin](countries/benin/index.md), [Bolivia](countries/bolivia/index.md), [Brazil](countries/brazil/index.md), [Cameroon](countries/cameroon/index.md), [DR Congo](countries/dr-congo/index.md), [The Gambia](countries/gambia/index.md), [Ghana](countries/ghana/index.md), [Kenya](countries/kenya/index.md), [Liberia](countries/liberia/index.md), [Malawi](countries/malawi/index.md), [Mozambique](countries/mozambique/index.md), [Peru](countries/peru/index.md), [Senegal](countries/senegal/index.md), [Tanzania](countries/tanzania/index.md), [Uganda](countries/uganda/index.md), [Vietnam](countries/vietnam/index.md)
+
+**Per technology:** [PV](technologies/pv/index.md), [Water distribution](technologies/water-distribution/index.md), [Biogas](technologies/biogas/index.md), [Water filtration](technologies/water-filtration/index.md)
 
 ## Agreements
 

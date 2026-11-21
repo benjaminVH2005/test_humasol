@@ -18,6 +18,7 @@ Making water safe to drink through filtration and disinfection.
 
 | Year | Project | Country | Final report |
 |---|---|---|---|
+| 2024-25 | Unikin (EP Kunda Masangu) | [DR Congo](../../countries/dr-congo/projects.md) | [Open report](https://drive.google.com/file/d/13ijhU7CS5DQhFOQN78BsV6r1Wj9dtBYr/view) |
 | 2023-24 | Mbarara Water Purification | [Uganda](../../countries/uganda/projects.md) | [Open report](https://drive.google.com/file/d/1CwcN-04hN_bf4YehvvZrEdH0c8xXJ7xy/view) |
 
 ## On the Drive

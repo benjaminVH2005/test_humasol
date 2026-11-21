@@ -18,7 +18,9 @@ Turning organic waste (manure, kitchen waste) into gas for cooking or heating.
 
 | Year | Project | Country | Final report |
 |---|---|---|---|
-| 2025-26 | Green Poultry Farm | Mozambique | [Open report](https://drive.google.com/file/d/1ZEjZo0RBQevb0bDZfCio-ciWLtYQKaaV/view) |
+| 2025-26 | Green Poultry Farm | [Mozambique](../../countries/mozambique/projects.md) | [Open report](https://drive.google.com/file/d/1ZEjZo0RBQevb0bDZfCio-ciWLtYQKaaV/view) |
+| 2023-24 | Entente | [Senegal](../../countries/senegal/projects.md) | [Open report](https://drive.google.com/file/d/1lTz-dLQNaIqR5-VG_-NHOqdPNJgqiDjB/view) |
+| 2022-23 | Hubi & Vinciane | [Benin](../../countries/benin/projects.md) | [Open report](https://drive.google.com/file/d/12WmShx3JclLItQenbtT2cXyKcx6uusTm/view) |
 
 ## On the Drive
 

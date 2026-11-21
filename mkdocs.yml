@@ -36,22 +36,70 @@ nav:
   - Home: index.md
   - Per country:
       - countries/index.md
-      - Liberia:
-          - A. General information: countries/liberia/index.md
-          - B. Projects: countries/liberia/projects.md
-          - C. Partners & companies: countries/liberia/partners.md
-      - Kenya:
-          - A. General information: countries/kenya/index.md
-          - B. Projects: countries/kenya/projects.md
-          - C. Partners & companies: countries/kenya/partners.md
+      - Benin:
+          - A. General information: countries/benin/index.md
+          - B. Projects: countries/benin/projects.md
+          - C. Partners & companies: countries/benin/partners.md
       - Bolivia:
           - A. General information: countries/bolivia/index.md
           - B. Projects: countries/bolivia/projects.md
           - C. Partners & companies: countries/bolivia/partners.md
+      - Brazil:
+          - A. General information: countries/brazil/index.md
+          - B. Projects: countries/brazil/projects.md
+          - C. Partners & companies: countries/brazil/partners.md
+      - Cameroon:
+          - A. General information: countries/cameroon/index.md
+          - B. Projects: countries/cameroon/projects.md
+          - C. Partners & companies: countries/cameroon/partners.md
+      - DR Congo:
+          - A. General information: countries/dr-congo/index.md
+          - B. Projects: countries/dr-congo/projects.md
+          - C. Partners & companies: countries/dr-congo/partners.md
+      - The Gambia:
+          - A. General information: countries/gambia/index.md
+          - B. Projects: countries/gambia/projects.md
+          - C. Partners & companies: countries/gambia/partners.md
+      - Ghana:
+          - A. General information: countries/ghana/index.md
+          - B. Projects: countries/ghana/projects.md
+          - C. Partners & companies: countries/ghana/partners.md
+      - Kenya:
+          - A. General information: countries/kenya/index.md
+          - B. Projects: countries/kenya/projects.md
+          - C. Partners & companies: countries/kenya/partners.md
+      - Liberia:
+          - A. General information: countries/liberia/index.md
+          - B. Projects: countries/liberia/projects.md
+          - C. Partners & companies: countries/liberia/partners.md
+      - Malawi:
+          - A. General information: countries/malawi/index.md
+          - B. Projects: countries/malawi/projects.md
+          - C. Partners & companies: countries/malawi/partners.md
+      - Mozambique:
+          - A. General information: countries/mozambique/index.md
+          - B. Projects: countries/mozambique/projects.md
+          - C. Partners & companies: countries/mozambique/partners.md
+      - Peru:
+          - A. General information: countries/peru/index.md
+          - B. Projects: countries/peru/projects.md
+          - C. Partners & companies: countries/peru/partners.md
+      - Senegal:
+          - A. General information: countries/senegal/index.md
+          - B. Projects: countries/senegal/projects.md
+          - C. Partners & companies: countries/senegal/partners.md
+      - Tanzania:
+          - A. General information: countries/tanzania/index.md
+          - B. Projects: countries/tanzania/projects.md
+          - C. Partners & companies: countries/tanzania/partners.md
       - Uganda:
           - A. General information: countries/uganda/index.md
           - B. Projects: countries/uganda/projects.md
           - C. Partners & companies: countries/uganda/partners.md
+      - Vietnam:
+          - A. General information: countries/vietnam/index.md
+          - B. Projects: countries/vietnam/projects.md
+          - C. Partners & companies: countries/vietnam/partners.md
   - Per technology:
       - technologies/index.md
       - PV:
