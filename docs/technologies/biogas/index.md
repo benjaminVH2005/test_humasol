@@ -13,6 +13,7 @@ Turning organic waste (manure, kitchen waste) into gas for cooking or heating.
 | [D. Economics](economics.md) | When drawing up the budget |
 | [E. Practical installation](installation.md) | Before and during fieldwork |
 | [F. Planning](planning.md) | At the start of the academic year |
+| [G. Watch out: mistakes & tips](watch-out.md) | Before you start, and whenever you make a design choice |
 
 ## Past projects with this technology
 

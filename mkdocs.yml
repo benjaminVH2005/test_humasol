@@ -117,6 +117,7 @@ nav:
           - D. Economics: technologies/pv/economics.md
           - E. Practical installation: technologies/pv/installation.md
           - F. Planning: technologies/pv/planning.md
+          - 'G. Watch out: mistakes & tips': technologies/pv/watch-out.md
       - Water distribution:
           - technologies/water-distribution/index.md
           - A. Background & research: technologies/water-distribution/background.md
@@ -133,6 +134,7 @@ nav:
           - D. Economics: technologies/water-distribution/economics.md
           - E. Practical installation: technologies/water-distribution/installation.md
           - F. Planning: technologies/water-distribution/planning.md
+          - 'G. Watch out: mistakes & tips': technologies/water-distribution/watch-out.md
       - Biogas:
           - technologies/biogas/index.md
           - A. Background & research: technologies/biogas/background.md
@@ -149,6 +151,7 @@ nav:
           - D. Economics: technologies/biogas/economics.md
           - E. Practical installation: technologies/biogas/installation.md
           - F. Planning: technologies/biogas/planning.md
+          - 'G. Watch out: mistakes & tips': technologies/biogas/watch-out.md
       - Water filtration:
           - technologies/water-filtration/index.md
           - A. Background & research: technologies/water-filtration/background.md
@@ -165,3 +168,4 @@ nav:
           - D. Economics: technologies/water-filtration/economics.md
           - E. Practical installation: technologies/water-filtration/installation.md
           - F. Planning: technologies/water-filtration/planning.md
+          - 'G. Watch out: mistakes & tips': technologies/water-filtration/watch-out.md

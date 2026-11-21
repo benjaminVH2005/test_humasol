@@ -10,6 +10,7 @@ Every technology has the same fixed parts:
 | **D. Economics** | What to take into account in the budget |
 | **E. Practical installation** | Good videos and points of attention |
 | **F. Planning** | How to start and what to do over the years |
+| **G. Watch out** | Mistakes from earlier projects and tips to avoid them |
 
 - [PV](pv/index.md): worked example
 - [Water distribution](water-distribution/index.md)

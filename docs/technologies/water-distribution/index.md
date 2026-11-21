@@ -13,6 +13,7 @@ Pumping, storing and distributing water to tap points, often powered by solar en
 | [D. Economics](economics.md) | When drawing up the budget |
 | [E. Practical installation](installation.md) | Before and during fieldwork |
 | [F. Planning](planning.md) | At the start of the academic year |
+| [G. Watch out: mistakes & tips](watch-out.md) | Before you start, and whenever you make a design choice |
 
 ## Past projects with this technology
 
