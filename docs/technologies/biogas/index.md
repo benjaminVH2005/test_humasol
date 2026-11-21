@@ -16,12 +16,9 @@ Turning organic waste (manure, kitchen waste) into gas for cooking or heating.
 
 ## Past projects with this technology
 
-The lessons learned are on the project page of each country. Here you see which projects used Biogas.
-
-| Year | Project | Country |
-|---|---|---|
-| *year* | *project name* | [Liberia](../../countries/liberia/projects.md) |
-| *year* | *project name* | [Kenya](../../countries/kenya/projects.md) |
+| Year | Project | Country | Final report |
+|---|---|---|---|
+| 2025-26 | Green Poultry Farm | Mozambique | [Open report](https://drive.google.com/file/d/1ZEjZo0RBQevb0bDZfCio-ciWLtYQKaaV/view) |
 
 ## On the Drive
 

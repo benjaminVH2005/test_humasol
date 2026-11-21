@@ -1,12 +1,11 @@
 # Projects in Bolivia
 
-| Year | Project | Technology | Partner | Status | Drive folder |
+Projects Humasol has carried out here, based on the final reports on the student drive. Click a report for the full design, budget and lessons learned.
+
+| Year | Project | Location | Technology | What was done? | Final report |
 |---|---|---|---|---|---|
-| *year* | *project name* | *e.g. PV* | *partner* | *working / problems / stopped* | *link* |
+| 2025-26 | **Niños con Alas** | Cochabamba | Solar water heating | Solar water heaters in series to supply hot shower water for two homes of about 50 young people each, plus a composting system for the vegetable garden. | [Open report](https://drive.google.com/file/d/1mm09bP_Q3N_Odqr3sCqE3MyQ9T7G2dS1/view) |
 
 ## Lessons learned
 
-### *Project name (year)*
-- **What worked well?** *…*
-- **What would we do differently?** *…*
-- **Tips for the next team:** *…*
+*To be completed: what worked well, what we would do differently, and tips for the next team. Ask the teams of the projects above.*

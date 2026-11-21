@@ -1,5 +1,10 @@
 # Bolivia: general information
 
+## Where Humasol has worked
+- **Cochabamba**: Niños con Alas (2025-26)
+
+See [Projects in Bolivia](projects.md) for details.
+
 ## Context
 - **Language(s)**: *to be completed*
 - **Voltage and plug type**: *to be completed*

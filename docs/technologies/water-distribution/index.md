@@ -16,12 +16,12 @@ Pumping, storing and distributing water to tap points, often powered by solar en
 
 ## Past projects with this technology
 
-The lessons learned are on the project page of each country. Here you see which projects used Water distribution.
-
-| Year | Project | Country |
-|---|---|---|
-| *year* | *project name* | [Liberia](../../countries/liberia/projects.md) |
-| *year* | *project name* | [Kenya](../../countries/kenya/projects.md) |
+| Year | Project | Country | Final report |
+|---|---|---|---|
+| 2025-26 | Brilliant Stars School | [Kenya](../../countries/kenya/projects.md) | [Open report](https://drive.google.com/file/d/1btnnqRqapHvU4NamjWDzPbt3OpTToMs_/view) |
+| 2025-26 | Gitaru Marigu | [Kenya](../../countries/kenya/projects.md) | [Open report](https://drive.google.com/file/d/1D3iP_NHe1bnwG8g8spbsb6MS3Cgx5PEH/view) |
+| 2022-23 | Mbarara Irrigation | [Uganda](../../countries/uganda/projects.md) | [Open report](https://drive.google.com/file/d/1wSifi46Qzb2sEEgAF5HYzyxzR59l0QkU/view) |
+| 2021-22 | Ekisande | [Uganda](../../countries/uganda/projects.md) | [Open report](https://drive.google.com/file/d/1Uph_8Rsgz2uiQyqi_6xViWToYrFWDytj/view) |
 
 ## On the Drive
 

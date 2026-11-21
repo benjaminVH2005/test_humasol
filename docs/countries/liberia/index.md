@@ -1,5 +1,10 @@
 # Liberia: general information
 
+## Where Humasol has worked
+- **Monrovia**: Emergi (2025-26)
+
+See [Projects in Liberia](projects.md) for details.
+
 ## Context
 - **Language(s)**: *to be completed*
 - **Voltage and plug type**: *to be completed*

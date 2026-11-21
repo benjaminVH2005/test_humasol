@@ -1,5 +1,11 @@
 # Kenya: general information
 
+## Where Humasol has worked
+- **Homa Bay County**: Brilliant Stars School (2025-26)
+- **Oyugis**: Gitaru Marigu (2025-26)
+
+See [Projects in Kenya](projects.md) for details.
+
 ## Context
 - **Language(s)**: *to be completed*
 - **Voltage and plug type**: *to be completed*

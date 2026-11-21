@@ -16,12 +16,9 @@ Making water safe to drink through filtration and disinfection.
 
 ## Past projects with this technology
 
-The lessons learned are on the project page of each country. Here you see which projects used Water filtration.
-
-| Year | Project | Country |
-|---|---|---|
-| *year* | *project name* | [Liberia](../../countries/liberia/projects.md) |
-| *year* | *project name* | [Kenya](../../countries/kenya/projects.md) |
+| Year | Project | Country | Final report |
+|---|---|---|---|
+| 2023-24 | Mbarara Water Purification | [Uganda](../../countries/uganda/projects.md) | [Open report](https://drive.google.com/file/d/1CwcN-04hN_bf4YehvvZrEdH0c8xXJ7xy/view) |
 
 ## On the Drive
 
