@@ -1,9 +1,11 @@
 # Humasol Knowledge Hub
 
-Welcome! This is where we collect everything we have learned from our projects, so that every new team does not have to start from scratch.
+Welcome! This is where we collect everything we have learned from our projects, so that every new team doesn't have to start from scratch.
 
 !!! tip "New at Humasol?"
-    Go to your **technology** for everything technical, and to your **country** for the context, past projects and partners.
+    Choose your **technology** for everything technical, and your **country** for the context, past projects and partners.
+
+## Library
 
 | Per country | Per technology |
 |---|---|
@@ -16,7 +18,7 @@ Welcome! This is where we collect everything we have learned from our projects, 
 
 - **This site explains, the Drive stores.** Sizing tools, datasheets and quotes are on the [Humasol Drive](https://drive.google.com/); this site links to them.
 - **One central supplier list.** All suppliers and companies are in one sheet with the columns *country* and *technology*. Technology pages and country pages both link to that sheet.
-- **No sensitive information on this site.** Contact details, prices and quotes are on the protected Drive.
+- **Sensitive information does not belong on this site.** Contact details, prices and quotes are on the protected Drive.
 - **Every section has an owner** who checks at least once a year that everything is still correct.
 
 | Section | Owner | Last reviewed |
