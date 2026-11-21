@@ -1,37 +1,30 @@
-# Humasol Kennisbank
+# Humasol Knowledge Hub
 
-Welkom! Hier verzamelen we alles wat we geleerd hebben over onze projecten, zodat elk nieuw team niet opnieuw van nul moet beginnen.
+The goal of this knowledge hub is to **preserve the knowledge within Humasol and build on it**: so that project students quickly find out what Humasol already knows about their topic, so that we can support them better technically, and so that we learn from the mistakes made in the past.
 
-!!! tip "Nieuw bij Humasol?"
-    Kies je **technologie** voor alles wat technisch is, en je **land** voor de context, eerdere projecten en partners. Heb je een vraag? Stel ze in de [community](community.md).
+## What can you find here?
 
-## De hub bestaat uit twee delen
-
-| Deel | Wat? |
+| Per country | Per technology |
 |---|---|
-| **Deel 1: [Community](community.md)** | Slack/WhatsApp met alumni-Humasolers, voor feedback per type project |
-| **Deel 2: Library** (deze site + Drive) | Alle kennis, geordend per land en per technologie |
+| [Liberia](countries/liberia/index.md) | [PV](technologies/pv/index.md) |
+| [Kenya](countries/kenya/index.md) | [Water distribution](technologies/water-distribution/index.md) |
+| [Bolivia](countries/bolivia/index.md) | [Biogas](technologies/biogas/index.md) |
+| [Uganda](countries/uganda/index.md) | [Water filtration](technologies/water-filtration/index.md) |
 
-## Library
+- **Per country**: A. Context (visas, vaccinations, good to know) · B. Past projects · C. Partners
+- **Per technology**: ten fixed parts, from background information (A) to *Watch out* (J)
 
-| Per land | Per technologie |
-|---|---|
-| [Liberia](landen/liberia/index.md) | [PV](technologieen/pv/index.md) |
-| [Kenia](landen/kenia/index.md) | [Waterdistributie](technologieen/waterdistributie/index.md) |
-| [Bolivia](landen/bolivia/index.md) | [Biogas](technologieen/biogas/index.md) |
-| [Oeganda](landen/oeganda/index.md) | [Waterfiltratie](technologieen/waterfiltratie/index.md) |
+## How is it organised?
 
-## Afspraken
+- **This site bundles the knowledge, the Drive stores the documents.** The Drive is still used for daily work (meeting minutes, reports, …). Here you find the knowledge summarised, with links to the documents on the [Drive](https://drive.google.com/).
+- **This site is public.** Sensitive information, such as partners, is only on the Drive; this site only links to it.
 
-- **Deze site legt uit, de Drive bewaart.** Dimensioneringstools, datasheets en offertes staan op de [Humasol Drive](https://drive.google.com/); hier link je ernaar.
-- **Eén centrale supplier list.** Alle leveranciers en bedrijven staan in één sheet met kolommen *land* en *technologie*. Technologie- en landpagina's linken allebei naar die sheet.
-- **Gevoelige info hoort niet op deze site.** Contactgegevens, prijzen en offertes staan op de afgeschermde Drive.
-- **Elke sectie heeft een eigenaar** die minstens één keer per jaar controleert of alles nog klopt.
+## Who is responsible for which section?
 
-| Sectie | Eigenaar | Laatst nagekeken |
+| Section | Responsible | Last reviewed |
 |---|---|---|
-| PV | *naam* | *datum* |
-| Waterdistributie | *naam* | *datum* |
-| Biogas | *naam* | *datum* |
-| Waterfiltratie | *naam* | *datum* |
-| Landen | *naam* | *datum* |
+| PV | *name* | *date* |
+| Water distribution | *name* | *date* |
+| Biogas | *name* | *date* |
+| Water filtration | *name* | *date* |
+| Countries | *name* | *date* |
