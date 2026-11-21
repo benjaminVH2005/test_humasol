@@ -5,21 +5,24 @@ Off-grid and hybrid solar installations for schools, health centres and communit
 !!! info "Example content"
     This text is an example to show the structure. Replace it with your own knowledge.
 
-| | Part | When do you need it? |
-|---|---|---|
-| A | [Background information](background.md) | To understand the basic theory |
-| B | [Introduction to the technology](introduction.md) | Before you start on the components |
-| C | [Main components](components/index.md) | During the design |
-| D | [Different system types](system-types.md) | To see the bigger picture |
-| E | [Research](research.md) | To see what has already been researched |
-| F | [How to size the system](sizing.md) | To size the whole system |
-| G | [Socio-economic](socio-economic.md) | For the budget and the social impact |
-| H | [Maintenance](maintenance.md) | At handover and afterwards |
-| I | [Practical installation](installation.md) | Before and during fieldwork |
-| J | [Watch out](watch-out.md) | From the very start of every project |
+| Part | When do you need it? |
+|---|---|
+| [A. Background & research](background.md) | To understand the technology |
+| [B. Technology](technology/index.md) | During the design |
+| [C. Maintenance & sustainability](maintenance.md) | At handover and afterwards |
+| [D. Economics](economics.md) | When drawing up the budget |
+| [E. Practical installation](installation.md) | Before and during fieldwork |
+| [F. Planning](planning.md) | At the start of the academic year |
 
-## Past projects with PV
+## Past projects with this technology
+
+The lessons learned are on the project page of each country. Here you see which projects used PV.
 
 | Year | Project | Country |
 |---|---|---|
-| *year* | *project name* | [*country*](../../countries/index.md) |
+| *year* | *project name* | [Liberia](../../countries/liberia/projects.md) |
+| *year* | *project name* | [Kenya](../../countries/kenya/projects.md) |
+
+## On the Drive
+
+[Sizing tool](https://drive.google.com/) · [Central supplier list](https://drive.google.com/) (filter on *PV*) · [Datasheets](https://drive.google.com/) *(add links)*

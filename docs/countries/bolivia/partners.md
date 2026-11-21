@@ -1,8 +1,22 @@
-# Bolivia: C. Partners
+# Partners & companies in Bolivia
 
-!!! warning "Sensitive information"
-    Humasol's partners and their contact details are **only on the protected Drive**, because this website is public.
+## Local partners
 
-**[Open the partner list for Bolivia on the Drive](https://drive.google.com/)** *(add link)*
+| Organisation | Type | Role in our projects | Since |
+|---|---|---|---|
+| *name* | *NGO / school / health centre* | *e.g. owner of the installation* | *year* |
 
-On the Drive you find for each partner: organisation, type (NGO, school, local company, supplier, …), role in our projects, since when, and contact person.
+## (Local) companies and suppliers
+
+All suppliers and companies are in **one central supplier list** on the Drive, so they don't have to be kept up to date in two places.
+
+**[Open the central supplier list](https://drive.google.com/)** and filter on *Bolivia*. *(add link)*
+
+| Column in the sheet | Example |
+|---|---|
+| Country | Bolivia |
+| Technology | PV, water distribution, biogas, water filtration |
+| Company + city | *name, city* |
+| What do they supply / do? | *e.g. batteries, installation* |
+| Experience | *e.g. reliable, 2-week delivery time* |
+| Contact | *(only in the protected sheet)* |

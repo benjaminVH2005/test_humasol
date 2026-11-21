@@ -1,15 +1,18 @@
-# H. Maintenance: Water filtration
+# C. Maintenance & sustainability
 
-What is known within Humasol about the maintenance of this technology.
-
-## Maintenance plan
+## Required maintenance
 
 | Frequency | Task | By whom |
 |---|---|---|
 | *frequency* | *task* | *who* |
 
-## Smart monitoring
+**Document with the full maintenance plan:** [on the Drive](https://drive.google.com/) *(add link)*
 
-| Sensor / system | What does it measure? | Experience |
-|---|---|---|
-| *sensor* | *…* | *…* |
+## How is it monitored?
+- **What do we track?** *…*
+- **How?** *e.g. a logbook the partner sends monthly, or remote monitoring*
+- **Who checks it at Humasol?** *name / role*
+
+## Long-term sustainability
+- Are spare parts available locally? (see partners per country)
+- How does the partner pay for replacements later? (e.g. a reserve fund)

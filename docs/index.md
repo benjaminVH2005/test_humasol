@@ -1,8 +1,9 @@
 # Humasol Knowledge Hub
 
-The goal of this knowledge hub is to **preserve the knowledge within Humasol and build on it**: so that project students quickly find out what Humasol already knows about their topic, so that we can support them better technically, and so that we learn from the mistakes made in the past.
+Welcome! This is where we collect everything we have learned from our projects, so that every new team does not have to start from scratch.
 
-## What can you find here?
+!!! tip "New at Humasol?"
+    Go to your **technology** for everything technical, and to your **country** for the context, past projects and partners.
 
 | Per country | Per technology |
 |---|---|
@@ -11,17 +12,14 @@ The goal of this knowledge hub is to **preserve the knowledge within Humasol and
 | [Bolivia](countries/bolivia/index.md) | [Biogas](technologies/biogas/index.md) |
 | [Uganda](countries/uganda/index.md) | [Water filtration](technologies/water-filtration/index.md) |
 
-- **Per country**: A. Context (visas, vaccinations, good to know) · B. Past projects · C. Partners
-- **Per technology**: ten fixed parts, from background information (A) to *Watch out* (J)
+## Agreements
 
-## How is it organised?
+- **This site explains, the Drive stores.** Sizing tools, datasheets and quotes are on the [Humasol Drive](https://drive.google.com/); this site links to them.
+- **One central supplier list.** All suppliers and companies are in one sheet with the columns *country* and *technology*. Technology pages and country pages both link to that sheet.
+- **No sensitive information on this site.** Contact details, prices and quotes are on the protected Drive.
+- **Every section has an owner** who checks at least once a year that everything is still correct.
 
-- **This site bundles the knowledge, the Drive stores the documents.** The Drive is still used for daily work (meeting minutes, reports, …). Here you find the knowledge summarised, with links to the documents on the [Drive](https://drive.google.com/).
-- **This site is public.** Sensitive information, such as partners, is only on the Drive; this site only links to it.
-
-## Who is responsible for which section?
-
-| Section | Responsible | Last reviewed |
+| Section | Owner | Last reviewed |
 |---|---|---|
 | PV | *name* | *date* |
 | Water distribution | *name* | *date* |

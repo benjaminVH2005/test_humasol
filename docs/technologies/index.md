@@ -1,19 +1,15 @@
 # Per technology
 
-Every technology has the same ten parts:
+Every technology has the same fixed parts:
 
-| | Part | What is in it? |
-|---|---|---|
-| A | Background information | Basic theory, e.g. for PV: AC vs DC |
-| B | Introduction to the technology | What you need to know before discussing the main components |
-| C | Main components | Per component: how it works, which types exist, how to size it |
-| D | Different system types | The bigger picture: which systems exist |
-| E | Research | What Humasol projects have already researched, with a link to the literature report |
-| F | How to size the system | Order of magnitude, with links to tools (e.g. Python scripts) |
-| G | Socio-economic | Social and economic aspects |
-| H | Maintenance | What is known about maintenance, smart monitoring |
-| I | Practical installation | How to install it, with good YouTube videos |
-| J | Watch out | Mistakes from the past, with references to the reports |
+| Part | What is in it? |
+|---|---|
+| **A. Background & research** | Theory, basic information and research |
+| **B. Technology** | Info, main components (each on its own page), system types, sizing |
+| **C. Maintenance & sustainability** | Required maintenance and how to monitor |
+| **D. Economics** | What to take into account in the budget |
+| **E. Practical installation** | Good videos and points of attention |
+| **F. Planning** | How to start and what to do over the years |
 
 - [PV](pv/index.md): worked example
 - [Water distribution](water-distribution/index.md)

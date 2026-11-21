@@ -1,18 +1,16 @@
-# Uganda: A. Context
+# Uganda: general information
 
-## Visas
-*to be completed: which visa, how to apply, how far in advance*
-
-## Vaccinations
-*to be completed*
-
-## General good to know
+## Context
 - **Language(s)**: *to be completed*
 - **Voltage and plug type**: *to be completed*
-- **Climate and seasons**: *to be completed* (important for the planning!)
-- **Customs and importing equipment**: *to be completed*
-- **Money and payments**: *to be completed*
+- **Climate and seasons**: *e.g. rainy season from … to …* (important for the planning!)
+- **Import duties and customs**: *to be completed*
+- **Currency and payments**: *to be completed*
+
+## Practical for the team
+- Visa, vaccinations, insurance: *link to Drive*
+- Safety and embassy contact: *link to Drive*
 
 ## More about Uganda
-- [B. Past projects](projects.md)
-- [C. Partners](partners.md)
+- [Projects in Uganda](projects.md)
+- [Partners & companies in Uganda](partners.md)

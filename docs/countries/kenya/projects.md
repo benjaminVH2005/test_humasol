@@ -1,7 +1,12 @@
-# Kenya: B. Past projects
+# Projects in Kenya
 
-| Year | Project | Technology | Short description | Report on the Drive |
-|---|---|---|---|---|
-| *year* | *project name* | *e.g. PV* | *1 sentence* | [link](https://drive.google.com/) |
+| Year | Project | Technology | Partner | Status | Drive folder |
+|---|---|---|---|---|---|
+| *year* | *project name* | *e.g. PV* | *partner* | *working / problems / stopped* | *link* |
 
-Mistakes and lessons from these projects are listed per technology under **J. Watch out**.
+## Lessons learned
+
+### *Project name (year)*
+- **What worked well?** *…*
+- **What would we do differently?** *…*
+- **Tips for the next team:** *…*

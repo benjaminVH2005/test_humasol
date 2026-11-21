@@ -1,5 +1,5 @@
 site_name: Humasol Knowledge Hub
-site_description: Humasol's knowledge per country and per technology, in one place
+site_description: All knowledge about our projects, technologies and partners in one place
 repo_url: https://github.com/benjaminVH2005/test_humasol
 edit_uri: edit/main/docs/
 
@@ -8,7 +8,7 @@ theme:
   language: en
   font: false
   palette:
-    primary: orange
+    primary: green
     accent: amber
   features:
     - navigation.sections
@@ -26,6 +26,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - tables
   - toc:
       permalink: true
@@ -35,88 +37,84 @@ nav:
   - Per country:
       - countries/index.md
       - Liberia:
-          - A. Context: countries/liberia/index.md
-          - B. Past projects: countries/liberia/projects.md
-          - C. Partners: countries/liberia/partners.md
+          - A. General information: countries/liberia/index.md
+          - B. Projects: countries/liberia/projects.md
+          - C. Partners & companies: countries/liberia/partners.md
       - Kenya:
-          - A. Context: countries/kenya/index.md
-          - B. Past projects: countries/kenya/projects.md
-          - C. Partners: countries/kenya/partners.md
+          - A. General information: countries/kenya/index.md
+          - B. Projects: countries/kenya/projects.md
+          - C. Partners & companies: countries/kenya/partners.md
       - Bolivia:
-          - A. Context: countries/bolivia/index.md
-          - B. Past projects: countries/bolivia/projects.md
-          - C. Partners: countries/bolivia/partners.md
+          - A. General information: countries/bolivia/index.md
+          - B. Projects: countries/bolivia/projects.md
+          - C. Partners & companies: countries/bolivia/partners.md
       - Uganda:
-          - A. Context: countries/uganda/index.md
-          - B. Past projects: countries/uganda/projects.md
-          - C. Partners: countries/uganda/partners.md
+          - A. General information: countries/uganda/index.md
+          - B. Projects: countries/uganda/projects.md
+          - C. Partners & companies: countries/uganda/partners.md
   - Per technology:
       - technologies/index.md
       - PV:
           - technologies/pv/index.md
-          - A. Background information: technologies/pv/background.md
-          - B. Introduction to the technology: technologies/pv/introduction.md
-          - C. Main components:
-              - technologies/pv/components/index.md
-              - Solar panels: technologies/pv/components/panels.md
-              - Inverter: technologies/pv/components/inverter.md
-              - Batteries: technologies/pv/components/batteries.md
-              - Charge controller: technologies/pv/components/charge-controller.md
-          - D. Different system types: technologies/pv/system-types.md
-          - E. Research: technologies/pv/research.md
-          - F. How to size the system: technologies/pv/sizing.md
-          - G. Socio-economic: technologies/pv/socio-economic.md
-          - H. Maintenance: technologies/pv/maintenance.md
-          - I. Practical installation: technologies/pv/installation.md
-          - J. Watch out: technologies/pv/watch-out.md
+          - A. Background & research: technologies/pv/background.md
+          - B. Technology:
+              - technologies/pv/technology/index.md
+              - Main components:
+                  - Solar panels: technologies/pv/technology/components/panels.md
+                  - Inverter: technologies/pv/technology/components/inverter.md
+                  - Batteries: technologies/pv/technology/components/batteries.md
+                  - Charge controller: technologies/pv/technology/components/charge-controller.md
+              - System types: technologies/pv/technology/system-types.md
+              - Sizing: technologies/pv/technology/sizing.md
+          - C. Maintenance & sustainability: technologies/pv/maintenance.md
+          - D. Economics: technologies/pv/economics.md
+          - E. Practical installation: technologies/pv/installation.md
+          - F. Planning: technologies/pv/planning.md
       - Water distribution:
           - technologies/water-distribution/index.md
-          - A. Background information: technologies/water-distribution/background.md
-          - B. Introduction to the technology: technologies/water-distribution/introduction.md
-          - C. Main components:
-              - technologies/water-distribution/components/index.md
-              - Pump: technologies/water-distribution/components/pump.md
-              - Storage tank: technologies/water-distribution/components/storage-tank.md
-              - Pipe network: technologies/water-distribution/components/pipe-network.md
-              - Tap points: technologies/water-distribution/components/tap-points.md
-          - D. Different system types: technologies/water-distribution/system-types.md
-          - E. Research: technologies/water-distribution/research.md
-          - F. How to size the system: technologies/water-distribution/sizing.md
-          - G. Socio-economic: technologies/water-distribution/socio-economic.md
-          - H. Maintenance: technologies/water-distribution/maintenance.md
-          - I. Practical installation: technologies/water-distribution/installation.md
-          - J. Watch out: technologies/water-distribution/watch-out.md
+          - A. Background & research: technologies/water-distribution/background.md
+          - B. Technology:
+              - technologies/water-distribution/technology/index.md
+              - Main components:
+                  - Pump: technologies/water-distribution/technology/components/pump.md
+                  - Storage tank: technologies/water-distribution/technology/components/storage-tank.md
+                  - Pipe network: technologies/water-distribution/technology/components/pipe-network.md
+                  - Tap points: technologies/water-distribution/technology/components/tap-points.md
+              - System types: technologies/water-distribution/technology/system-types.md
+              - Sizing: technologies/water-distribution/technology/sizing.md
+          - C. Maintenance & sustainability: technologies/water-distribution/maintenance.md
+          - D. Economics: technologies/water-distribution/economics.md
+          - E. Practical installation: technologies/water-distribution/installation.md
+          - F. Planning: technologies/water-distribution/planning.md
       - Biogas:
           - technologies/biogas/index.md
-          - A. Background information: technologies/biogas/background.md
-          - B. Introduction to the technology: technologies/biogas/introduction.md
-          - C. Main components:
-              - technologies/biogas/components/index.md
-              - Digester: technologies/biogas/components/digester.md
-              - Gas storage: technologies/biogas/components/gas-storage.md
-              - Gas pipes & burners: technologies/biogas/components/gas-pipes-burners.md
-              - Digestate: technologies/biogas/components/digestate.md
-          - D. Different system types: technologies/biogas/system-types.md
-          - E. Research: technologies/biogas/research.md
-          - F. How to size the system: technologies/biogas/sizing.md
-          - G. Socio-economic: technologies/biogas/socio-economic.md
-          - H. Maintenance: technologies/biogas/maintenance.md
-          - I. Practical installation: technologies/biogas/installation.md
-          - J. Watch out: technologies/biogas/watch-out.md
+          - A. Background & research: technologies/biogas/background.md
+          - B. Technology:
+              - technologies/biogas/technology/index.md
+              - Main components:
+                  - Digester: technologies/biogas/technology/components/digester.md
+                  - Gas storage: technologies/biogas/technology/components/gas-storage.md
+                  - Gas pipes & burners: technologies/biogas/technology/components/gas-pipes-burners.md
+                  - Digestate (by-product): technologies/biogas/technology/components/digestate.md
+              - System types: technologies/biogas/technology/system-types.md
+              - Sizing: technologies/biogas/technology/sizing.md
+          - C. Maintenance & sustainability: technologies/biogas/maintenance.md
+          - D. Economics: technologies/biogas/economics.md
+          - E. Practical installation: technologies/biogas/installation.md
+          - F. Planning: technologies/biogas/planning.md
       - Water filtration:
           - technologies/water-filtration/index.md
-          - A. Background information: technologies/water-filtration/background.md
-          - B. Introduction to the technology: technologies/water-filtration/introduction.md
-          - C. Main components:
-              - technologies/water-filtration/components/index.md
-              - Pre-filtration: technologies/water-filtration/components/pre-filtration.md
-              - Main filter: technologies/water-filtration/components/main-filter.md
-              - Disinfection: technologies/water-filtration/components/disinfection.md
-              - Clean water storage: technologies/water-filtration/components/clean-water-storage.md
-          - D. Different system types: technologies/water-filtration/system-types.md
-          - E. Research: technologies/water-filtration/research.md
-          - F. How to size the system: technologies/water-filtration/sizing.md
-          - G. Socio-economic: technologies/water-filtration/socio-economic.md
-          - H. Maintenance: technologies/water-filtration/maintenance.md
-          - I. Practical installation: technologies/water-filtration/installation.md
-          - J. Watch out: technologies/water-filtration/watch-out.md
+          - A. Background & research: technologies/water-filtration/background.md
+          - B. Technology:
+              - technologies/water-filtration/technology/index.md
+              - Main components:
+                  - Pre-filtration: technologies/water-filtration/technology/components/pre-filtration.md
+                  - Main filter: technologies/water-filtration/technology/components/main-filter.md
+                  - Disinfection: technologies/water-filtration/technology/components/disinfection.md
+                  - Clean water storage: technologies/water-filtration/technology/components/clean-water-storage.md
+              - System types: technologies/water-filtration/technology/system-types.md
+              - Sizing: technologies/water-filtration/technology/sizing.md
+          - C. Maintenance & sustainability: technologies/water-filtration/maintenance.md
+          - D. Economics: technologies/water-filtration/economics.md
+          - E. Practical installation: technologies/water-filtration/installation.md
+          - F. Planning: technologies/water-filtration/planning.md
